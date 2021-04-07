@@ -1,5 +1,4 @@
-function dropdownMenu() {
-  const body = document.querySelector("body");
+function toggleDropdown(target) {
+  document.querySelector(target).classList.toggle("show");
+  console.log(target);
 }
-
-export default dropdownMenu;
