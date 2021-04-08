@@ -52,6 +52,13 @@ body {
   text-decoration: none;
 }
 
+.dropdownBtn:hover,
+.linkBtn:hover,
+.dropdownBtn:focus {
+  background-color: var(--pink);
+  color: var(--white);
+}
+
 .dropdownContent {
   display: none;
 }
