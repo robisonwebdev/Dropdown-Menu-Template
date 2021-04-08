@@ -12,6 +12,7 @@
 }
 
 body {
+  background-color: var(--white);
   width: 100vw;
 }
 
@@ -22,7 +23,7 @@ body {
   align-items: center;
   gap: 15px;
 
-  background-color: aqua;
+  background-color: var(--litePink);
   height: 50px;
 }
 
@@ -42,9 +43,9 @@ body {
 
 .dropdownBtn,
 .linkBtn {
-  background-color: brown;
-  color: white;
-  padding: 16px;
+  background-color: var(--litePink);
+  color: var(--pink);
+  padding: 15px;
   font-size: 16px;
   border: none;
   cursor: pointer;
