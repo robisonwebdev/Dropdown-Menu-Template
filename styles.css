@@ -81,6 +81,10 @@ body {
   display: block;
 }
 
+.dropdownContent a:hover {
+  text-decoration: underline;
+}
+
 .show {
   display: block;
 }
