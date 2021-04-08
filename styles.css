@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+:root {
+  --white: #f9f3f3;
+  --grey: #dddddd;
+  --litePink: #f7d9d9;
+  --pink: #f25287;
+}
+
 body {
   width: 100vw;
 }
